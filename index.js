@@ -10,7 +10,7 @@ const isEmpty = require('is-empty');
 const conn = mysql.createConnection({
     host: '127.0.0.1',
     user: 'root',
-    password: 'umch!@#$',
+    password: '',
     database: 'blog_post'
 });
 conn.connect();
